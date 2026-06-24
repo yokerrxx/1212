@@ -1,0 +1,36 @@
+    .body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .header {
+        height: 13vh;
+        width: 100%;
+        text-align: center;
+        background: gray;
+        ;
+    }
+    
+    .header-text {
+        padding-top: 40px;
+    }
+    
+    .prf-btn {
+        position: static;
+        float: left;
+        border-color: black;
+        color: black;
+    }
+    
+    .book-grid {
+        display: grid;
+        grid-template-columns: repeat(28, 2fr);
+        gap: 150px;
+    }
+    
+    .book_item img {
+        min-width: 360px;
+        max-height: 480px;
+        object-fit: cover;
+        object-fit: center;
+    }
